@@ -1,0 +1,13 @@
+<div class="bank">
+    <app-bank-logo [id]="product.bank.id"></app-bank-logo>
+    <app-star-rating [rating]="product.bank.rating.starsLast12Months"></app-star-rating>
+    <div>{{product.bank.rating.reviewsLast12Months}} (12 Monate)</div>
+</div>
+<div class="bullets">
+    <ul [innerHTML]="product.bullets"></ul>
+</div>
+<div class="rates">
+    <strong>{{product.rates.effective.min.monthlyRate}}</strong>
+    <div>{{product.rates.effective.min.interest}}</div>
+    <button>weiter</button>
+</div>
