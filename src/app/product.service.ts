@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {Product} from './product.model';
-import {map, take} from 'rxjs/operators';
+import { HttpClient } from '@angular/common/http';
+import { Product } from './product.model';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,8 @@ export class ProductService {
 
   fetch(offset = 0) {
     return this.httpClient.get<{products: Product[]}>('assets/products.json')
-      .pipe(map((result) => result.products))
-      .pipe(map((products) => products.slice(offset, offset + 10)));
+      .pipe(map(result => result.products))
+      // Virtualize pagination by returning only 10 items from the offset.
+      .pipe(map(products => products.slice(offset, offset + 10)));
   }
 }
