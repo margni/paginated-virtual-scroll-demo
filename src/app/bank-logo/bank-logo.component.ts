@@ -7,5 +7,5 @@ import {Component, Input, ViewEncapsulation} from '@angular/core';
   styleUrls: ['./bank-logo.component.scss']
 })
 export class BankLogoComponent {
-  @Input() public id: number;
+  @Input() public id!: number;
 }

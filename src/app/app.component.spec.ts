@@ -1,6 +1,6 @@
-import {TestBed, async, ComponentFixture} from '@angular/core/testing';
+import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 describe('AppComponent', () => {
   @Component({selector: 'app-products', template: ''})
@@ -24,7 +24,11 @@ describe('AppComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create the app', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have as title 'paginated-virtual-scroll-demo'`, () => {
+    expect(component.title).toEqual('paginated-virtual-scroll-demo');
   });
 });

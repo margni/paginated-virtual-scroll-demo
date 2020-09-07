@@ -7,5 +7,5 @@ import { Product } from '../product.model';
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent {
-  @Input() public product: Product;
+  @Input() public product!: Product;
 }
