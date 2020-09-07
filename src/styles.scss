@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-@import "bank-logo.css";
+@import 'bank-logo.css';
 
 html {
     background: #EEE;
+    height: 100%;
 }
 
 body {
     font-family: sans-serif;
+    height: 100%;
     margin: 0;
 }

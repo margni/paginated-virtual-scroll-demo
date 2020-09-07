@@ -9,7 +9,7 @@ import { ProductService } from '../product.service';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent {
-  public productDataSource;
+  public productDataSource: ProductDataSource;
 
   constructor(productService: ProductService) {
     this.productDataSource = new ProductDataSource(productService);

@@ -1,8 +1,8 @@
 :host {
-    display: block;
-    padding: 10px;
+  display: flex;
+  padding: 10px;
 }
 
-.Products__Scroller {
-    height: 80vh;
+.scroller {
+  flex: 1;
 }

@@ -1,3 +1,14 @@
-cdk-virtual-scroll-viewport {
-    height: 300px;
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.products {
+  flex: 1;
 }

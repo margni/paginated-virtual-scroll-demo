@@ -1,31 +1,31 @@
 :host {
-    display: flex;
-    height: 140px;
-    background: #FFF;
-    border: 1px solid #DDD;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    padding: 10px;
+  display: flex;
+  height: 140px;
+  background: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .bank {
-    display: flex;
-    flex-direction: column;
-    border-right: 1px solid #DDD;
-    padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #DDD;
+  padding-right: 10px;
 }
 
 .bullets {
-    flex: 1;
-    border-right: 1px solid #DDD;
-    padding-right: 10px;
+  flex: 1;
+  border-right: 1px solid #DDD;
+  padding-right: 10px;
 }
 
 .rates {
-    align-items: flex-end;
-    padding: 0 0 0 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  align-items: flex-end;
+  padding: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
