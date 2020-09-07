@@ -1,4 +1,6 @@
-# CodingTask
+# Paginated Virtual Scroll Demo
+
+Demonstrates seamless infinite scroll using [`cdkScrollable`](https://material.angular.io/cdk/scrolling) with a paginated data source.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
