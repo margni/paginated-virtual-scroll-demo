@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { ProductDataSource } from '../product-data-source';
+import { ProductDataSource } from '../product.data-source';
 import { ProductService } from '../product.service';
 
 @Component({

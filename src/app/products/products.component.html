@@ -1,3 +1,3 @@
-<cdk-virtual-scroll-viewport class="scroller" itemSize="170" maxBufferPx="340" minBufferPx="340">
-  <app-product *cdkVirtualFor="let product of productDataSource" [product]="product"></app-product>
+<cdk-virtual-scroll-viewport class="scroller" itemSize="140">
+  <app-product *cdkVirtualFor="let product of productDataSource" class="product" [product]="product"></app-product>
 </cdk-virtual-scroll-viewport>
